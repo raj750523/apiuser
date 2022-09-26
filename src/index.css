@@ -1,0 +1,75 @@
+.nav {
+  background-color: rgb(227, 234, 238);
+  text-align: left;
+
+}
+.clearfix{
+  background-color: rgb(231, 220, 225);
+  align-items: center;
+}
+.App {
+  font-family: sans-serif;
+  text-align: side;
+  size: 23px;
+  align-items: center;
+
+}
+
+.col-md-4 {
+  margin-bottom: 50px;
+}
+
+.card {
+  padding: 30px;
+  border: solid 1px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  align-items: center;
+}
+.card:hover {
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.08);
+  align-items: center;
+}
+.card-title {
+  margin-top: 20px;
+}
+.card-text {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.card-text .fa {
+  font-size: 26px;
+}
+.avatar {
+ 
+  width: 200px;
+  margin: auto;
+}
+.avatar img {
+  border: solid 6px transparent;
+  border-radius: 50%;
+  align-items: center;
+}
+.card:hover .avatar img {
+  border-color: rgb(127, 45, 221);
+}
+
+.btn {
+  border-radius: 25px;
+  align-items: center;
+}
+
+footer p {
+  color: rgba(251, 219, 37, 0.6);
+}
+
+footer p a,
+footer p a:hover {
+  color: rgb(82, 60, 150);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1040px;
+    align-items: center;
+  }
+}
